@@ -33,6 +33,8 @@ The following Excel skills were utilized for analysis:
 ## Dashboard Build
 
 ### :one: Data Validation
+![Data_validation](/Project1_Salary_Dashboard/images/Data_validation_gif.gif)
+
 #### Filtered List
 ### :two:Charts
 #### :book: Data Science Job Salaries - Bar Chart
@@ -71,8 +73,10 @@ jobs[salary_year_avg]
 - 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
 - **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
-Back-End
-![Back_end](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)
+Back-End  
+
+![Back_end](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)  
+
 Front-End
 ![Front_end](/Project1_Salary_Dashboard/images/Dashboard_presentation.png)
 #### Median Salary by Job Titles
