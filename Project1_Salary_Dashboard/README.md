@@ -1,43 +1,45 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Salary Dashboard](#salary-dashboard)
-  - [Introduction](#introduction)
+- [Introduction](#introduction)
     - [Dashboard File](#dashboard-file)
     - [Excel Skills Used](#excel-skills-used)
-    - [Data Jobs Dataset](#data-jobs-dataset)
+    - [Data Science Jobs Dataset](#data-science-jobs-dataset)
   - [Dashboard Build](#dashboard-build)
     - [:one: Data Validation](#onedata-validation)
     - [:two:Charts](#twocharts)
-      - [:book: Bar Chart - Data Science Job Salaries](#book-bar-chart---data-science-job-salaries)
-      - [:globe\_with\_meridians: Country Median Salaries - Map Chart](#globe_with_meridians-country-median-salaries---map-chart)
+      - [:heavy\_dollar\_sign: Bar Chart - Data Science Job Salaries](#heavy_dollar_sign-bar-chart---data-science-job-salaries)
+      - [:globe\_with\_meridians: Map Chart - Country Median Salaries](#globe_with_meridians-map-chart---country-median-salaries)
     - [:three: Formulas and Functions](#threeformulas-and-functions)
-      - [💰 Median Salary by Job Titles](#-median-salary-by-job-titles)
-      - [Count of Job Schedule Type](#count-of-job-schedule-type)
+      - [:heavy\_dollar\_sign: Median Salary by Job Titles](#heavy_dollar_sign-median-salary-by-job-titles)
+      - [:heavy\_plus\_sign: Count of Job Schedule Type](#heavy_plus_sign-count-of-job-schedule-type)
   - [Conclusion](#conclusion)
   - [What I Learned](#what-i-learned)
 
 # Salary Dashboard
 ![Dashboard_gif](/Project1_Salary_Dashboard/images/Dashboard_gif1.gif)
 
-## Introduction
-This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated.
+# Introduction
+This data jobs salary dashboard was created following Luke Barousse's Youtube [tutorial](https://www.youtube.com/watch?v=pCJ15nGFgVg). This dashboard is created to filter out job listings by title, country and work type.
 
-The data is from my Excel course, which provides a foundation in analyzing data using this powerful tool. The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
+Data used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains job listing information on titles, salaries, locations, and job listing platforms.
 
 ### Dashboard File
-:computer: Check out my dashbaord here: [Project1_Salary_Dashboard.xlsx](/Project1_Salary_Dashboard/Project_1_Salary_Dashboard.xlsx)
+:computer: Check out my dashbaord here: [](/Project1_Salary_Dashboard/Project_1_Salary_Dashboard.xlsx)
 
 ### Excel Skills Used
 The following Excel skills were utilized for analysis:
-- **Data Validation**
-- **Charts**
-- **Formulas and Functions**
+- :lock: **Data Validation**
+- :chart: **Charts**
+- :izakaya_lantern: **Formulas and Functions**
 
-### Data Jobs Dataset
+### Data Science Jobs Dataset
+Information retrieved from dataset for this project are:
+
 - :floppy_disk: **Job titles**
-- :dollar: **Salaries**
+- :heavy_dollar_sign: **Salaries**
 - :globe_with_meridians: **Locations**
-- :book: **Skills**
+- :rocket: **Skills**
   
 ## Dashboard Build
 
@@ -48,32 +50,33 @@ Data validation is implemented to prevent user entry errors and enhance overall 
 ![Data_validation](/Project1_Salary_Dashboard/images/Data_validation_gif.gif)
 
 ### :two:Charts
-#### :book: Bar Chart - Data Science Job Salaries
+#### :heavy_dollar_sign: Bar Chart - Data Science Job Salaries
 
-- **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
-- **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
-- **Data Organization:** Sorted job titles by descending salary for improved readability.
-- **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
+- **Excel Features:** Bar chart is used to optimize layout for clarity.
+- **Design Choice:** Horizontal bar chart to easily compare median salaries.
+- **Data Organization:** Job titles sorted by descending salary for better readability.
+- **Insights:** Clear salary trends— Senior roles and Engineers earn more than Analysts.
 
 ![Bar_Chart](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)
 
 
 
-#### :globe_with_meridians: Country Median Salaries - Map Chart
+#### :globe_with_meridians: Map Chart - Country Median Salaries 
 
 
-- **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
-- **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
-- **Data Representation**: Plotted median salary for each country with available data.
-- **Visual Enhancement**: Improved readability and immediate understanding of geographic salary trends.
-- **Insights Gained**: Enables quick grasp of global salary disparities and highlights high/low salary regions.
+- **Excel Features:** Map chart is used to plot median salaries around the globe.
+- **Design Choice:** Salary level by region is color-coded on the map for clear visualization.
+- **Data Representation**: Median salary per country is plotted subject to data availibility.
+- **Visual Enhancement**: Enhanced readability for quick geographic salary trends.
+- **Insights**: Regions with highl/low salary are instantly highlighted.
 
 ![Map_Chart](/Project1_Salary_Dashboard/images/Map_gif.gif)
 
 ### :three: Formulas and Functions
 
-#### 💰 Median Salary by Job Titles
+#### :heavy_dollar_sign: Median Salary by Job Titles
 
+Formula used:
 ```
 =MEDIAN(
 IF(
@@ -84,34 +87,42 @@ IF(
 jobs[salary_year_avg]
 ))
 ```
-- **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
-- **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
+
+- **Formula Result:** Returns salary median based on job_title, country,and schedule_type.
+- **Data Cleaning:** Used a combination of funcations (`MEDIAN()` and multiple `IF()`s) to find median of salaries that is not 0.
 - **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
-- **Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
+  
+![Back_end_1](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)
+*Back-end table*  
 
-Back-End  
-
-![Back_end_1](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)  
-
-Front-End  
 
 ![Front_end_1](/Project1_Salary_Dashboard/images/Dashboard_presentation.png)
+*Front-End Dashboard* 
 
 
-#### Count of Job Schedule Type
+#### :heavy_plus_sign: Count of Job Schedule Type
+
+Formula used:
 ```
+=FILTER(K2#,(NOT(ISNUMBER(SEARCH("and",K2#))+ISNUMBER(SEARCH(",",K2#))))*(K2#<>0))
 ```
-Back-End  
+- **Formula Result:** Returns unique job schedule_type.
+- **Data Cleaning:** Used a combination of functions()`FILTER()`,`SERACH()` and `ISNUMBER()` to exclude repetitive job types and 0 from source data.
+
+
 ![Bakc_end_2](/Project1_Salary_Dashboard/images/Back_end_2.png)
+*Back-end table* 
 
 Front-End  
 
 ![Front_end_2](/Project1_Salary_Dashboard/images/Dashboard_presentation_2.png)
-
+*Front-End Dashboard* 
 
 ## Conclusion
+This dashboard provides comprehensive insights into salary trends across various pay scales, categorized by job titles within the data industry. The color-coded map delivers an immediate visualization of median salary levels, highlighting high and low ranges for the selected country.
+
 ## What I Learned
-- **:shower: Utilise funcation and formula to clean data:**
-- **:musical_keyboard: Keyboard shortcuts:** to increase work efficiency
-- **:mortar_board: Miscellaneous:** Excel tips and knowledge
+- **:shower: Utilise formula combinitations to clean data:** I picked a more efficient and flawless way to clean data through this tutorial which I expect myself to implement on my future work.
+- **:musical_keyboard: Keyboard shortcuts:** Picked up some keyboard short cuts which is always a bonus to leanr.
+- **:mortar_board: Miscellaneous:** Excel tips and knowledge.
 - **:bulb: Add GIFs:** Adding GIFs to my Github README makes my project fun to look at. Moreover, it prodives visual demo of features presented in projects. Viewers can instantly understand without needing to read through paragraphs of documentations. I will incoporate GIFs in my future projects.
