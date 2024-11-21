@@ -1,3 +1,6 @@
+![Banner](/Project2_Analysis/images/P2_banner.jpg)  
+*Image by <a href="https://pixabay.com/users/tungnguyen0905-17946924/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7111798">Tung Nguyen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7111798">Pixabay</a>*  
+
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
