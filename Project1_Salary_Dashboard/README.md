@@ -13,8 +13,8 @@
     - [:three: Formulas and Functions](#threeformulas-and-functions)
       - [:heavy\_dollar\_sign: Median Salary by Job Titles](#heavy_dollar_sign-median-salary-by-job-titles)
       - [:heavy\_plus\_sign: Count of Job Schedule Type](#heavy_plus_sign-count-of-job-schedule-type)
-  - [Conclusion](#conclusion)
-  - [What I Learned](#what-i-learned)
+- [Conclusion](#conclusion)
+- [What I Learned](#what-i-learned)
 
 # Salary Dashboard
 ![Dashboard_gif](/Project1_Salary_Dashboard/images/Dashboard_gif1.gif)
@@ -118,10 +118,10 @@ Front-End
 ![Front_end_2](/Project1_Salary_Dashboard/images/Dashboard_presentation_2.png)
 *Front-End Dashboard* 
 
-## Conclusion
+# Conclusion
 This dashboard provides comprehensive insights into salary trends across various pay scales, categorized by job titles within the data industry. The color-coded map delivers an immediate visualization of median salary levels, highlighting high and low ranges for the selected country.
 
-## What I Learned
+# What I Learned
 - **:shower: Utilise formula combinitations to clean data:** I picked a more efficient and flawless way to clean data through this tutorial which I expect myself to implement on my future work.
 - **:musical_keyboard: Keyboard shortcuts:** Picked up some keyboard short cuts which is always a bonus to leanr.
 - **:mortar_board: Miscellaneous:** Excel tips and knowledge.
