@@ -82,3 +82,8 @@ Front-End
 #### Median Salary by Job Titles
 #### Count of Job Schedule Type
 ## Conclusion
+## What I Learned
+- Utilise funcation and formula to clean data
+- Keyboard shortcuts to increase work efficiency
+- Miscellaneous Excel tips and knowledge
+- Adding GIFs to my Github README makes my project fun to look at. Moreover, it prodives visual demo of features presented in projects. Viewers can instantly understand without needing to read through paragraphs of documentations. I will incoporate GIFs in my future projects.
