@@ -9,8 +9,8 @@
 :dart: Data used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main).
 
 :gem: This project contains two parts:
-- 1. [Salary Dashboard](https://github.com/mchenliu/Excel_Project_Data_Job_Analysis/tree/main/Project1_Salary_Dashboard)
-- 2. [Job Analysis](https://github.com/mchenliu/Excel_Project_Data_Job_Analysis/tree/main/Project2_Analysis)
+- [Salary Dashboard](https://github.com/mchenliu/Excel_Project_Data_Job_Analysis/tree/main/Project1_Salary_Dashboard)
+- [Job Analysis](https://github.com/mchenliu/Excel_Project_Data_Job_Analysis/tree/main/Project2_Analysis)
 
 
 # What I Learned
