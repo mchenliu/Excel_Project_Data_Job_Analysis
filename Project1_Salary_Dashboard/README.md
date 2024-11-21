@@ -7,7 +7,8 @@
     - [Data Jobs Dataset](#data-jobs-dataset)
   - [Conclusion](#conclusion)
 
-![Dashboard_gif](/Project1_Salary_Dashboard/images/ezgif.com-video-to-gif-converter.gif)
+![Dashboard_gif](/Project1_Salary_Dashboard/images/Dashboard_1.gif)
+
 # Salary Dashboard
 ## Introduction
 ### Dashboard File
