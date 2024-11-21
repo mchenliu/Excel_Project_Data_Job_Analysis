@@ -10,7 +10,7 @@
     - [Data Science Jobs Dataset](#data-science-jobs-dataset)
   - [Dashboard Build](#dashboard-build)
     - [:one: Data Validation](#onedata-validation)
-    - [:two:Charts](#twocharts)
+    - [:two: Charts](#two-charts)
       - [:heavy\_dollar\_sign: Bar Chart - Data Science Job Salaries](#heavy_dollar_sign-bar-chart---data-science-job-salaries)
       - [:globe\_with\_meridians: Map Chart - Country Median Salaries](#globe_with_meridians-map-chart---country-median-salaries)
     - [:three: Formulas and Functions](#threeformulas-and-functions)
@@ -49,7 +49,7 @@ Data validation is implemented to prevent user entry errors and enhance overall 
 
 ![Data_validation](/Project1_Salary_Dashboard/images/Data_validation_gif.gif)
 
-### :two:Charts
+### :two: Charts
 #### :heavy_dollar_sign: Bar Chart - Data Science Job Salaries
 
 - **Excel Features:** Bar chart is used to optimize layout for clarity.
@@ -92,12 +92,12 @@ jobs[salary_year_avg]
 - **Data Cleaning:** Used a combination of funcations (`MEDIAN()` and multiple `IF()`s) to find median of salaries that is not 0.
 - **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
   
-![Back_end_1](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)
+![Back_end_1](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)  
 *Back-end table*  
 
 
-![Front_end_1](/Project1_Salary_Dashboard/images/Dashboard_presentation.png)
-*Front-End Dashboard* 
+![Front_end_1](/Project1_Salary_Dashboard/images/Dashboard_presentation.png)  
+*Front-end Dashboard* 
 
 
 #### :heavy_plus_sign: Count of Job Schedule Type
@@ -110,13 +110,12 @@ Formula used:
 - **Data Cleaning:** Used a combination of functions()`FILTER()`,`SERACH()` and `ISNUMBER()` to exclude repetitive job types and 0 from source data.
 
 
-![Bakc_end_2](/Project1_Salary_Dashboard/images/Back_end_2.png)
+![Bakc_end_2](/Project1_Salary_Dashboard/images/Back_end_2.png)  
 *Back-end table* 
+  
 
-Front-End  
-
-![Front_end_2](/Project1_Salary_Dashboard/images/Dashboard_presentation_2.png)
-*Front-End Dashboard* 
+![Front_end_2](/Project1_Salary_Dashboard/images/Dashboard_presentation_2.png)  
+*Front-end Dashboard* 
 
 # Conclusion
 This dashboard provides comprehensive insights into salary trends across various pay scales, categorized by job titles within the data industry. The color-coded map delivers an immediate visualization of median salary levels, highlighting high and low ranges for the selected country.
