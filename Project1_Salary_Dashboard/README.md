@@ -37,7 +37,9 @@ The following Excel skills were utilized for analysis:
 ### :two:Charts
 #### :book: Data Science Job Salaries - Bar Chart
 #### :globe_with_meridians: Country Median Salaries - Map Chart
-[Map_Chart](/Project1_Salary_Dashboard/images/Map_gif.gif)
+
+![Map_Chart](/Project1_Salary_Dashboard/images/Map_gif.gif)
+
 ### :three: Formulas and Functions
 #### Median Salary by Job Titles
 #### Count of Job Schedule Type
