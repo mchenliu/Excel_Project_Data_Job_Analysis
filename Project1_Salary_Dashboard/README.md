@@ -36,6 +36,8 @@ The following Excel skills were utilized for analysis:
 #### Filtered List
 ### :two:Charts
 #### :book: Data Science Job Salaries - Bar Chart
+![Bar_Chart](/Project1_Salary_Dashboard/images/Title%20Bar%20Chart.png)
+
 #### :globe_with_meridians: Country Median Salaries - Map Chart
 
 ![Map_Chart](/Project1_Salary_Dashboard/images/Map_gif.gif)
