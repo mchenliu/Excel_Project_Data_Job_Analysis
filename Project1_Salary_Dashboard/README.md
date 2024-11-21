@@ -1,6 +1,9 @@
+# Salary Dashboard
+![Dashboard_gif](/Project1_Salary_Dashboard/images/Dashboard_gif1.gif)
+
 # Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Salary Dashboard](#salary-dashboard)
+- [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
     - [Dashboard File](#dashboard-file)
     - [Excel Skills Used](#excel-skills-used)
@@ -15,9 +18,6 @@
       - [:heavy\_plus\_sign: Count of Job Schedule Type](#heavy_plus_sign-count-of-job-schedule-type)
 - [Conclusion](#conclusion)
 - [What I Learned](#what-i-learned)
-
-# Salary Dashboard
-![Dashboard_gif](/Project1_Salary_Dashboard/images/Dashboard_gif1.gif)
 
 # Introduction
 This data jobs salary dashboard was created following Luke Barousse's Youtube [tutorial](https://www.youtube.com/watch?v=pCJ15nGFgVg). This dashboard is created to filter out job listings by title, country and work type.
