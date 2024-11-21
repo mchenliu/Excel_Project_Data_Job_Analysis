@@ -25,7 +25,7 @@ This data jobs salary dashboard was created following Luke Barousse's Youtube [t
 Data used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains job listing information on titles, salaries, locations, and job listing platforms.
 
 ### Dashboard File
-:computer: Check out my dashbaord here: [](/Project1_Salary_Dashboard/Project_1_Salary_Dashboard.xlsx)
+:computer: Check out my dashbaord here: [Project1_Salary_Dashboard.xlsx](/Project1_Salary_Dashboard/Project_1_Salary_Dashboard.xlsx)
 
 ### Excel Skills Used
 The following Excel skills were utilized for analysis:

@@ -1,4 +1,6 @@
-![Banner](/images/Excel_Banner.webpimages/)
+![Banner](/banner/accounting-1928237_1280.png)  
+
+*Image by <a href="https://pixabay.com/users/tumisu-148124/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1928237">Tumisu</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1928237">Pixabay</a>*  
 
 :mega: This Excel project was created following Luke Barousse's Youtube [tutorial](https://www.youtube.com/watch?v=pCJ15nGFgVg). 
 
