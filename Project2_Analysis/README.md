@@ -1,4 +1,16 @@
 # Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+  - [Questions to Analyze](#questions-to-analyze)
+  - [Excel Skills Used](#excel-skills-used)
+  - [Data Jobs Dataset](#data-jobs-dataset)
+- [:one: Do more skills get you better pay?](#onedo-more-skills-get-you-better-pay)
+- [:two: What’s the salary for data jobs in different regions?](#twowhats-the-salary-for-data-jobs-in-different-regions)
+- [:three: What are the top skills of data professionals?](#threewhat-are-the-top-skills-of-data-professionals)
+- [:four: What’s the pay of the top 10 skills?](#fourwhats-the-pay-of-the-top-10-skills)
+- [Conclusion](#conclusion)
+- [What I Learned](#what-i-learned)
+
 # Introduction
 ## Questions to Analyze
 The questions I wanted to answer through my project are:
@@ -23,3 +35,4 @@ I utilized these Excel for analysis:
 # :three: What are the top skills of data professionals?
 # :four: What’s the pay of the top 10 skills?
 # Conclusion
+# What I Learned
