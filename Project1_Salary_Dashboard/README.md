@@ -5,17 +5,10 @@
 - [Salary Dashboard](#salary-dashboard)
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
-    - [Dashboard File](#dashboard-file)
-    - [Excel Skills Used](#excel-skills-used)
-    - [Data Science Jobs Dataset](#data-science-jobs-dataset)
   - [Dashboard Build](#dashboard-build)
     - [:one: Data Validation](#onedata-validation)
     - [:two: Charts](#two-charts)
-      - [:heavy\_dollar\_sign: Bar Chart - Data Science Job Salaries](#heavy_dollar_sign-bar-chart---data-science-job-salaries)
-      - [:globe\_with\_meridians: Map Chart - Country Median Salaries](#globe_with_meridians-map-chart---country-median-salaries)
     - [:three: Formulas and Functions](#threeformulas-and-functions)
-      - [:heavy\_dollar\_sign: Median Salary by Job Titles](#heavy_dollar_sign-median-salary-by-job-titles)
-      - [:heavy\_plus\_sign: Count of Job Schedule Type](#heavy_plus_sign-count-of-job-schedule-type)
 - [Conclusion](#conclusion)
 - [What I Learned](#what-i-learned)
 
@@ -24,16 +17,16 @@ This data jobs salary dashboard was created following Luke Barousse's Youtube [t
 
 Dataset used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains real-world job listing from 2023, providing information on titles, salaries, locations, and job listing platforms.
 
-### Dashboard File
+***Dashboard File**  
 :computer: Check out my dashbaord here: [Project1_Salary_Dashboard.xlsx](/Project1_Salary_Dashboard/Project_1_Salary_Dashboard.xlsx)
 
-### Excel Skills Used
+**Excel Skills Used**  
 The following Excel skills were utilized for analysis:
 - :lock: **Data Validation**
 - :chart: **Charts**
 - :izakaya_lantern: **Formulas and Functions**
 
-### Data Science Jobs Dataset
+**Data Science Jobs Dataset**  
 Information retrieved from dataset for this project are:
 
 - :floppy_disk: **Job titles**
@@ -50,7 +43,7 @@ Data validation is implemented to prevent user entry errors and enhance overall 
 ![Data_validation](/Project1_Salary_Dashboard/images/Data_validation_gif.gif)
 
 ### :two: Charts
-#### :heavy_dollar_sign: Bar Chart - Data Science Job Salaries
+**:heavy_dollar_sign: Bar Chart - Data Science Job Salaries**
 
 - **Excel Features:** Bar chart is used to optimize layout for clarity.
 - **Design Choice:** Horizontal bar chart to easily compare median salaries.
@@ -61,7 +54,7 @@ Data validation is implemented to prevent user entry errors and enhance overall 
 
 
 
-#### :globe_with_meridians: Map Chart - Country Median Salaries 
+**:globe_with_meridians: Map Chart - Country Median Salaries**  
 
 
 - **Excel Features:** Map chart is used to plot median salaries around the globe.
@@ -74,7 +67,7 @@ Data validation is implemented to prevent user entry errors and enhance overall 
 
 ### :three: Formulas and Functions
 
-#### :heavy_dollar_sign: Median Salary by Job Titles
+**:heavy_dollar_sign: Median Salary by Job Titles**
 
 Formula used:
 ```
@@ -100,7 +93,7 @@ jobs[salary_year_avg]
 *Front-end Dashboard* 
 
 
-#### :heavy_plus_sign: Count of Job Schedule Type
+**:heavy_plus_sign: Count of Job Schedule Type**
 
 Formula used:
 ```
