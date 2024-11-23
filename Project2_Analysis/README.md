@@ -39,3 +39,8 @@ I utilized these Excel for analysis:
 # :four: What’s the pay of the top 10 skills?
 # Conclusion
 # What I Learned
+- Enable analysis add-ins in excel
+- What-If Analysis
+- Power Query
+- Power Pivot
+- DAX
