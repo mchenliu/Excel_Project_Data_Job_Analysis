@@ -1,5 +1,5 @@
 # Introduction  
-:gem: This project contains two parts:
+:gem: This project has two parts:
 - [Salary Dashboard](https://github.com/mchenliu/Excel_Project_Data_Job_Analysis/tree/main/Project1_Salary_Dashboard): This dashboard filters out job listings by title, country and work type.
 - [Job Analysis](https://github.com/mchenliu/Excel_Project_Data_Job_Analysis/tree/main/Project2_Analysis): This analysis further explores the relationship between skills required and salary in the data science market.
 
