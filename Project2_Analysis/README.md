@@ -9,9 +9,6 @@
   - [Data Jobs Dataset](#data-jobs-dataset)
 - [:one: Do more skills bring more money in Data Science?](#onedo-more-skills-bring-more-money-in-data-science)
   - [:hammer: Skill: Power Query to ETL](#hammer-skill-power-query-to-etl)
-    - [Extract](#extract)
-    - [Transform](#transform)
-    - [Load](#load)
   - [:computer: Analysis](#computer-analysis)
 - [:two: What’s the salary for data jobs in different countries?](#twowhats-the-salary-for-data-jobs-in-different-countries)
   - [:hammer: Skills:  Pivot Tables \& DAX](#hammer-skills--pivot-tables--dax)
@@ -49,13 +46,13 @@ I utilized these Excel for analysis:
 Dataset used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains real-world job listing from 2023, providing information on titles, salaries, locations, and job listing platforms.
 # :one: Do more skills bring more money in Data Science?  
 ## :hammer: Skill: Power Query to ETL
-### Extract  
+**Extract**  
 
 First was to create two queries from source date `data_salary_all.xlsx`:  
   - The first one has all job listing information.
   - The second one has skills that are associated with each job ID.  
 
-### Transform  
+**Transform**  
 Then I transformed two queries through modifying column types, removing unwanted columns, removing specific words, trimming whitespace and unpivoting columns.  
 
 *Transform steps for query one*  
@@ -63,7 +60,7 @@ Then I transformed two queries through modifying column types, removing unwanted
 
 *Transform steps for query two*  
 ![Transform2](/Project2_Analysis/images/Transform2.png)  
-### Load  
+**Load**  
 Lastly, I loaded these two transformed queries into the workbook to prepare for futher analysis.  
 *Query 1*
 ![Query1](/Project2_Analysis/images/Query1.png)  
