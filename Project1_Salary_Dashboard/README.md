@@ -22,7 +22,7 @@
 # Introduction
 This data jobs salary dashboard was created following Luke Barousse's Youtube [tutorial](https://www.youtube.com/watch?v=pCJ15nGFgVg). This dashboard is created to filter out job listings by title, country and work type.
 
-Data used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains job listing information on titles, salaries, locations, and job listing platforms.
+Dataset used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains real-world job listing from 2023, providing information on titles, salaries, locations, and job listing platforms.
 
 ### Dashboard File
 :computer: Check out my dashbaord here: [Project1_Salary_Dashboard.xlsx](/Project1_Salary_Dashboard/Project_1_Salary_Dashboard.xlsx)

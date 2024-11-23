@@ -13,7 +13,7 @@
 - [:three: What are the top Skills in Data Science?](#threewhat-are-the-top-skills-in-data-science)
   - [:hammer: Skill: Power Pivot](#hammer-skill-power-pivot)
   - [:computer: Analysis](#computer-analysis-2)
-- [:four: What’s the pay of the top 10 skills?](#fourwhats-the-pay-of-the-top-10-skills)
+- [:four: What's the pay of the top 10 skills?](#fourwhats-the-pay-of-the-top-10-skills)
   - [:hammer: Skill: Pivot Charts](#hammer-skill-pivot-charts)
   - [:computer: Analysis](#computer-analysis-3)
 - [Conclusion](#conclusion)
@@ -55,7 +55,7 @@ Then I transformed two queries through modifying column types, removing unwanted
 
 *Transform steps for query two*  
 ![Transform2](/Project2_Analysis/images/Transform2.png)  
-  
+
 **:arrow_up: Load**  
 Lastly, I loaded these two transformed queries into the workbook to prepare for futher analysis.  
 *Query 1*
@@ -95,25 +95,36 @@ Median Salary Not US:=CALCULATE([Median Salary],data_jobs_salary[job_country]<>"
 
 # :three: What are the top Skills in Data Science?
 ## :hammer: Skill: Power Pivot  
-Data Model  
-
+**Power Pivot**  
+- Because I've cleaned the data with Power Query previously, I proceeded to  Data Model and connected table `data_jobs_all` with table `data_jobs_skills`.  
+  
+**Data Model**  
+- I established a many to one relasionship between the two tables via `job_id` column.  
 *Diagram*  
 ![Diagram](/Project2_Analysis/images/Diagram.png)  
 
 
 ## :computer: Analysis  
-- For data analyst, SQL and Excel are the most demanded skils across majority of the world.
+- For data analysts, SQL and Excel are the most demanded skils across majority of the world.
 - The high ranking of Python, R, Tableau and Power BI shows programming langauges and visualization tools are highly favoured by the market.  
   
 *Top skills required for Data Analyst in Australia*
 ![Top_Skills](/Project2_Analysis/images/Top_skills.png)
-# :four: What’s the pay of the top 10 skills?
+# :four: What's the pay of the top 10 skills?
 ## :hammer: Skill: Pivot Charts  
-## :computer: Analysis
-# Conclusion
+- I created a combo table Pivot Chart to presenting both median salary and skill likelihood(%). 
+- The primary axis is the salary medain (clusterd bars) 
+- The secondary axis is skill likelihhood (line with built in markers).
+- A slicer is added for drilling down to top paid skills by roles. 
+## :computer: Analysis  
+- Skills like SQL, Python, Oracle and Tableau are high in both median salary and job likelihood. This indicates their high demand and high return in the market.
+- Skills like Powerpoint and Word are low in both salary and likelihood. This suggests they are not specialization skills demanded in data science field.  
+
+*Top paid skills for data analysts*  
+![Top_paid_skills](/Project2_Analysis/images/Top_paid_skills.png)
+# Conclusion  
+This project provides valuable insights into the data science job market, highlighting key trends and correlations. It demonstrates a positive relationship between the number of skills listed and the salary offered, though certain roles, such as data scientist, may deviate from this pattern. Additionally, it outlines the median salaries across various countries. Notably, skills like Python, SQL, and cloud computing platforms are in high demand, offering substantial returns in the competitive data science field. 
 # What I Learned
-- Enable analysis add-ins in excel
-- What-If Analysis (Scenario manager & Goal Seeker)
-- Power Query
-- Power Pivot
-- DAX
+- Sharpened my knowledge on analysis add-ins and Toolpak in Excel.
+- Performed ETL with Power Query.
+- Advanced visualization with Pivot Charts and Power Pivot.
