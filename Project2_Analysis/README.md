@@ -55,6 +55,7 @@ Then I transformed two queries through modifying column types, removing unwanted
 
 *Transform steps for query two*  
 ![Transform2](/Project2_Analysis/images/Transform2.png)  
+  
 **:arrow_up: Load**  
 Lastly, I loaded these two transformed queries into the workbook to prepare for futher analysis.  
 *Query 1*
