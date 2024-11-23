@@ -8,8 +8,8 @@
 :dart: Data used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main).
 
 
-# Excel Skill Used
+# Excel Skills Used
 **:high_brightness: Advanced Data Analysis:** Used various analysis add-ins and analysis ToolPak.  
 **:shower: Power Query:** Merged multilple files in Power Query Editor and performed exploratory data analysis (EDA).  
-**:muscle: Power Pivot and DAX:**  
+**:muscle: Power Pivot and DAX:** Used DAX to create explicit measures and created Power Pivot tables.
 **:eyes: Result Visaulization:** Used various charts including clustered bar, combo chart and scatter plots with slicers.
