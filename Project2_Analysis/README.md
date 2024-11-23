@@ -4,9 +4,6 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
-  - [Questions to Analyze](#questions-to-analyze)
-  - [Excel Skills Used](#excel-skills-used)
-  - [Data Jobs Dataset](#data-jobs-dataset)
 - [:one: Do more skills bring more money in Data Science?](#onedo-more-skills-bring-more-money-in-data-science)
   - [:hammer: Skill: Power Query to ETL](#hammer-skill-power-query-to-etl)
   - [:computer: Analysis](#computer-analysis)
@@ -25,7 +22,7 @@
 # Introduction
 Following the [salary dashboard](https://github.com/mchenliu/Excel_Project_Data_Job_Analysis/tree/main/Project1_Salary_Dashboard) from project one, this project dives further into the job posting data and analyze the relationship betwee skills required and salary for data science roles.
 
-## Questions to Analyze
+**Questions to Analyze**  
 The questions I wanted to answer through my project are:
 
 1. Do more skills bring more money in Data Science?
@@ -33,8 +30,7 @@ The questions I wanted to answer through my project are:
 3. What are the top Skills in Data Science?
 4. What’s the pay for the top 10 skills?
    
-## Excel Skills Used
-
+**Excel Skills Used**  
 I utilized these Excel for analysis:
 - Pivot Tables
 - Pivot Charts
@@ -42,7 +38,7 @@ I utilized these Excel for analysis:
 - Power Pivot
 - DAX (Data Analysis Expression)
 
-## Data Jobs Dataset
+**Data Jobs Dataset**  
 Dataset used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains real-world job listing from 2023, providing information on titles, salaries, locations, and job listing platforms.
 # :one: Do more skills bring more money in Data Science?  
 ## :hammer: Skill: Power Query to ETL
