@@ -42,13 +42,12 @@ I utilized these Excel for analysis:
 Dataset used in this project is from Luke's [Github](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main). The data contains real-world job listing from 2023, providing information on titles, salaries, locations, and job listing platforms.
 # :one: Do more skills bring more money in Data Science?  
 ## :hammer: Skill: Power Query to ETL
-**Extract**  
-
+**:arrow_down: Extract**  
 First was to create two queries from source date `data_salary_all.xlsx`:  
   - The first one has all job listing information.
   - The second one has skills that are associated with each job ID.  
 
-**Transform**  
+**:arrows_clockwise: Transform**  
 Then I transformed two queries through modifying column types, removing unwanted columns, removing specific words, trimming whitespace and unpivoting columns.  
 
 *Transform steps for query one*  
@@ -56,7 +55,7 @@ Then I transformed two queries through modifying column types, removing unwanted
 
 *Transform steps for query two*  
 ![Transform2](/Project2_Analysis/images/Transform2.png)  
-**Load**  
+**:arrow_up: Load**  
 Lastly, I loaded these two transformed queries into the workbook to prepare for futher analysis.  
 *Query 1*
 ![Query1](/Project2_Analysis/images/Query1.png)  
@@ -71,13 +70,13 @@ Lastly, I loaded these two transformed queries into the workbook to prepare for 
 # :two: What’s the salary for data jobs in different countries?
 ## :hammer: Skills:  Pivot Tables & DAX  
 
-**DAX**    
+**:trident: DAX**    
 I used DAX to find median yearly salary for non United States jobs.  
 
 ```
 Median Salary Not US:=CALCULATE([Median Salary],data_jobs_salary[job_country]<>"United States")
 ```  
-**Pivot Table**
+**:snowflake: Pivot Table**
 - I used Power Pivot to create the Data Model for the salary by country Pivot Table.  
 - Then added new measure to calculate the median salary for Unitied States jobs.  
 ```
@@ -86,7 +85,7 @@ Median Salary Not US:=CALCULATE([Median Salary],data_jobs_salary[job_country]<>"
 - Lastly, I put together a Pivot Table to refine salary median comparison between jobs listed in United States and outside of United States. A slicer that connects to other Pivot Tables in this workbook is added for a even closed up analysis.
 
 *Salary by country*  
-![Salary_Country](//Project2_Analysis/images/Salary_Country.png)
+![Salary_Country](/Project2_Analysis/images/Salary_Country.png)
 
 ## :computer: Analysis
 
